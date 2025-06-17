@@ -1,0 +1,21 @@
+h1{
+    color: #08287d;
+    font-size: 50px;
+    padding: right;
+    
+}
+p{ 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    size: 35px; 
+    color: greenyellow;
+}
+body{
+    background-color: rgb(168, 64, 56);
+}
+
+mark{ 
+    color: lightblue;
+    background-color: #08287d;
+    padding: 5px;
+    border-radius: 5px;
+}
