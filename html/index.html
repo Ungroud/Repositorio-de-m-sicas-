@@ -7,7 +7,74 @@
     <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
+    <!-- Lista no ordenada-->
+    <ul>
+        <li>SOY UNO</li>
+        <li>SOY DOS</li>
+    </ul>
+    <!-- LISTA ORDENADA -->
+     <ol>
+        <li value="">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+            <!-- LISTA ANIDADA -->
+             <li>
+                <ol>   
+                    <li style="list-style-type:lower-alpha">Elemento 1</li>
+                    <li style="list-style-type:lower-alpha">Elemento 2</li>
+                    <li style="list-style-type:lower-alpha">Elemento 3</li>
+                </ol>
+             </li>
+     </ol>
+
     <p> Realizando pruebas para complementar mi propia página web</p>
     <a target="_blank" href="Inicio.html"> Ir a la pagina de principal de la web</a>
+    <!-- Estoy realizando formularios -->
+    <h2>Formulario de contacto</h2>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre: </label>
+        <input value ="none" id="nombre" type="text" name="Nombre" placeholder="nombre" /> 
+        <br/> <br/>
+        <label for="apellido">Apellido </label>
+        <input value="none" id="apellido" type="text" name="Apellido" placeholder="apellido"/>
+        <br><br>
+        <label for="comentario"> Comentario:</label>
+        <br/> <br/>
+        <textarea cols="50" rows="10" id="comentario" type="text" name="Comentario" placeholder="comentario"></textarea>
+        <br><br>
+    <!-- Botones -->
+      <button type="submit">Envío</button>
+      <button type="button"> Enviar</button>
+      <button type="reset">Cancelar</button>
+    </form>
+    <table> 
+        <thead> 
+        <tr>
+            <!-- CABECERAS DE LAS TABLAS -->
+            <th> Capacidad </th>
+            <th> Precio </th>
+            <th> Producto</th>
+        </tr>
+        </thead>
+        <!-- /Fila de la tabla/ -->
+
+        <tbody>
+        <tr>
+            <!-- Datos de las tablas -->
+            <td> 5554 </td>
+            <td> S/5.30 </td>
+            <td> Riñones </td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <!-- Datos de las tablas -->
+            <td></td>
+            <td> </td>
+            <td>sada</td>
+        </tr>
+        </tfoot>
+
+    </table>
 </body>
 </html>

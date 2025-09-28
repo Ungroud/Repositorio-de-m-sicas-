@@ -24,3 +24,8 @@ img.foto-de-enlace{
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
+table, th, td {
+    width: 500px;
+    border: 2px solid black; 
+    border-collapse: collapse;
+}
