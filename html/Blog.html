@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconocimiento de blog</title>
+<style>
+    span.resaltar{ 
+        color: red; 
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif
+    }
+    #Pie{ 
+        background-color: greenyellow; 
+        text-align: center; 
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <header id="Cabecera"> 
+        <h1 style="text-align:center"> Este es mi Pagina web</h1>
+        <p> 
+            En esta parte escribiré parte de mi información personal
+            <br>
+            Hola mi nombre es <span class="resaltar"> Roger</span>
+            <br>
+            Tengo <span class="resaltar"> 20 años</span>
+            <br>
+            Me gusta programar en html con el fin de crear mi propia página web
+            <br>
+            Soy Ingeniero de Sistemas que está realizando sus primeras páginas webs
+            <br> 
+            Espero que les guste mi página web
+        </p>
+    </header>
+    <section id="Bandeja"> 
+        <p> 
+            En esta parte realizaré la colocación de imagenes y texto mío 
+        </p>
+        <center>
+        <img src="../pictures/coco.jpg" alt="Imagen de representación de COCO Gonzales" widht="300" height="400">
+        <p>
+                Es una imagen que me representa y es la imágen de mi v-tuber favorito
+                <br>
+                Se llama <span>Kiryu Coco</span> y tuvo una polémica con la nación china
+                <br>
+                <a  style="text-align:center" href="https://virtualyoutuber.fandom.com/es/wiki/Kiryu_Coco" target="_blanck"> Wikipedia de Kiryu Coco</a>
+        </p>    
+        </center>
+            </section>
+    <section style="text-align:center" id="Formulario">
+        <form action="/formulario-blog" method="GET">
+                <h2>Formulario para Registrar datos ajenos</h2>
+                <label for="nombre"> Nombre: </label>
+                <input id="nombre" type="text" name="Nombre" placeholder="Roger..."/>
+                <br> <br>
+                <label for="apellido"> Apellido: </label>
+                <input id="apellido" type="text" name="Apellido" placeholder="Apellidos..."/>
+                <br> <br>
+                <label for="Correo"> Correo: </label>
+                <input id="Correo" type="email" name="Correo" placeholder="example@gmail.com"/>
+                <br> <br>
+                <label for="Contrasenia"> Contraseña: </label>
+                <input id="Contresania" type="password" name="Contrasenia" placeholder="********"/>
+                <br> <br>
+                <label for="Comentario"> Comentario: </label>
+                <br>
+                <textarea id="Comentario" name="Comentario" cols="30" rows="10"> </textarea>
+                </label>
+                <br>
+                <input type="submit" value="Enviar Datos"/>
+        </form>
+    </section>
+
+    <footer id="Pie">
+        <p> Correo: Canchumanyaa@gmail.com</p>
+        <p> Telefono: No mame no </p>
+        <p> WhatsApp: +51 934 225 917</p>
+        <p> Dirección: Lima-Perú</p>
+    </footer>
+</body>
+</html>
